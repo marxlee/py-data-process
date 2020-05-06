@@ -1,0 +1,74 @@
+1、numpy 级联 集成，操作sql
+	np.concatenate()
+	np.vstack() 竖直方向，axis = 0
+	np.hstack() 水平方向，axis = 1
+
+
+2、numpy切分操作
+	split() 参数二indices_or_sections:int 1-D array
+	vsplit() 竖直方向，axis = 0
+	hsplit() 水平方向，axis = 1
+
+
+3、numpy提供一些列函数
+	聚合函数，合并到一块，根据某一个方向进行合并，axis
+	percentile 求解ndarray百分比 中位数，百分之50%
+
+
+
+4、numpy统计学：
+	平均值、中位数、方差（自己求），标准差、协方差（两个属性求解）、关联（相关性系数，一个男生的猥琐程度和他受女生欢迎程度之间关系-1 ~ 1）
+
+
+5、numpy读写操作：
+	.npy
+	.txt文本文件
+
+
+6、numpy矩阵运算：
+	线性代数知识
+	解方程，解复杂方程
+	逆矩阵求解方程
+
+7、numpy广播机制：
+	批量进行操作
+
+8、排序：
+	sort(),模块numpy，对象ndarray
+	数据库操作，经常使用
+
+9、numpy中文网站：
+	https://www.numpy.org.cn/index.html
+
+10、open computer vision 开源计算机视觉
+
+
+11、opencv C++写的代码
+	python调用cv2模块中的方法就可以了
+	cv2读取图片路径中，不能包含中文，不然数据读取不出来
+	cv2显示图片
+		cv2.imshow('jin',jin1)
+		# 等待键盘输入，单位毫秒，如果是0，无限等待
+		cv2.waitKey(0)
+		cv2.destroyAllWindows()
+	cv2读取图片，颜色通道是BGR
+	cv2.cvtcolor()
+	cv2.resize()
+
+12、cv2识别人脸：
+	haar人脸特征，常用，github下载
+	给其他特征，咱们可以识别其他的objects
+	CascadeClassifier级联分类器
+
+13、cv2操作视频：
+	视频由图片组成 + 音频
+	cap = cv2.VideoCapture('文件路径')
+	flag,frame = cap.read()
+
+14、cv2保存视频：
+	cv2.VideoWriter('./po2.mp4',cv2.VideoWriter_fourcc('M','P','4','v'),16,(w,h))
+	参数二，视频编码格式
+	参数三，视频帧，频率
+	参数四，图片宽度高度
+	
+

@@ -1,0 +1,9 @@
+1、numpy 还有后面10道题目
+
+2、opencv将视频中每一帧保存下来
+
+3、学习dlib 可以识别人脸
+
+4、openface
+
+5、deepfake
