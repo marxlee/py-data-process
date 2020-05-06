@@ -1,0 +1,127 @@
+1、数据分析环境搭建
+	1）自己搭建开发环境
+		安装了3.6.8python（自定义安装目录）
+		配置环境变量
+		数据分析环境：numpy、pandas、jupyter、scipy、sklearn、matplotlib、tensorflow、seaborn、pyecharts……
+		jupyter，数据分析开发工具，浏览器中编写代码，启动jupyter：jupyter notebook
+		命令行一直运行，后端，浏览器，前端
+		命令行中写代码，映射到浏览器，写代码灵活
+
+
+	2）使用anaconda集成开发环境
+		一路下一步（修改安装目录）
+		配置环境变量
+		启动jupyter：jupyter notebook
+
+
+2、jupyter
+	jupyter notebook
+	浏览器中写代码
+	规则和Python完全一致jupyter ---------> ipython ------> python
+	适合数据分析和科学计算，灵活
+	可视化界面（cmd）+ 灵活---------> jupyter
+	集成：代码，图片，公式，注释markdown于一体的超级web界面
+
+
+3、kaggle、天池大数据竞赛（阿里巴巴）数据分析的平台
+	X**2 + Y**2 = Z**2 正整数解
+	
+	X**3 + Y**3 = Z**3 正整数解
+
+	X**n + Y**n = Z**n n >=3 正整数解
+
+	X，Y，Z正整数解 1,2,3,4,5……
+
+	一个也没有
+
+	费马大定理
+
+	kaggle 历史很悠久，上面有很多开源的项目，并且附有代码
+
+
+
+4、数据分析、数据挖掘 BI 很多年的历史，条件宽松，报表
+	Excel
+	SPSS   ------------超级Excel，数据分析，画图，算法，软件1G，收费一年1万一个人
+	SAS     ------------超级Excel 跟SPSS类似，收费，一年一人5000RMB
+	Matlab ------------数据分析，收费，基础版1万一年，工具箱都买了，35万RMB
+	R         -------------数据分析，稍微难一些，只能做数据分析，受众少
+	
+	Python + numpy + pandas + sklearn + tensorflow + matplotlib  --------> 免费
+	功能跟上边任何一种工具或软件一样强大
+	受众特别多，人员庞大
+	自动化运行，公司需要终极目标，实时分析
+
+
+     机器学习算法工程师，人工智能AI
+	算法工程师，薪资很高，条件严格
+
+
+5、jupyter notebook 时，位置在哪里，浏览器目录就是当前目录
+
+
+6、jupyter 使用规则
+	代码文件的后缀名.ipynb  ipython notebook   jupyter 继承 ipython 
+
+	jupyter中有运行单元，单元写代码，写代码的规则和Python完全一样
+
+	状态栏Run，单击运行
+		Ctrl + Enter 运行 选中本单元
+		Alt + Enter 运行 插入新的一行
+		Shift + Enter 运行 选中下一个单元
+
+	插入新的代码单元
+		a above 上面插入一行
+		b below	下面插入一行
+
+	删除
+		双击D
+
+	tab代码提示
+	
+	代码方法API
+		Shift + tab
+
+	
+	魔法指令
+		代码运行计时
+		%time  当前行
+		%%time 跨行
+		%timeit 平均运行时间（应用代码运行时间比较短）
+		lsmagic 列出常用魔法指令（linux指令）
+		魔法指令使jupyter更加灵活
+
+	markdown
+		键盘M转化成markdown
+
+
+7、numpy numeric（数字化） Python
+	NumPy包的核心是ndarray对象，n维数组
+	电脑上所有的数据，都是数字形式保存
+	numpy 和之前列表结构类似
+	功能更加强大，对象，封装了常用的方法
+	运行速度很快 C、C++
+
+	numpy创建 np.array(列表)
+	
+	numpy常规的函数，直接调用 随机数，正太分布分布
+
+	ndarray属性
+
+	ndarry 索引和列表完全一致，多维索引和一维二维索引规律完全相同，多维索引复杂一些
+
+	图片本质ndarray，彩色三维：高度、宽度、像素
+
+	三原色红绿蓝
+	
+	int ----int8 8位 2**8 = 256 -----> -128 ~ 127
+	uint8 无符号，没有负号，0 ~ 255
+
+	图片进行切片，颜色改变（切片）
+
+	reshape 数据数量不能变
+	
+	级联 数据集成 concatenate 参数 axis 轴（维度），指定维度 axis 0,1,2……
+
+
+8、机器学习、人工智能本质：解方程
