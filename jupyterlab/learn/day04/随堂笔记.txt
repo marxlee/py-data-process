@@ -1,0 +1,119 @@
+1、操作音频，视频，合并：
+	ndarray数组对象操作，修改，调整
+	pandas非常强大
+	加载数据500万条，没问题
+	Series，DataFrame创建，索引切片
+	运算，对齐
+
+
+2、多层索引：
+	Series ：pd.MultiIndex.from_product([['A','B','C'],['期中','期末']]))
+	DataFrame 和Series创建多层一样方式
+	多层索引可以行，也可以是列
+
+
+3、多层索引DataFrame索引和切片：
+	和之前类似的，99%类似的
+
+
+4、聚合操作：
+	指定轴，指定level
+	level分组意思
+	多了一个参数，level指定聚合时方向，索引的层级
+	指定了哪个level层级，该层级会保留
+
+5、stack和unstack：
+	stack（堆，摞起来，一行行）：列变成行
+	unstack反
+	多层Series通过unstack转变成DataFrame
+
+
+6、pandas数据集成：
+	数据可能分散不同文件中，合并到一起
+	numpy级联操作，axis 注意
+	pandas级联操作和numpy类似的
+	一般级联：行方向进行级联，不同表，可以级联必然是属性相同
+	大部分情况下，都是使用这种方式进行级联，集成
+	参数：
+		join：inner 两者共同的索引才会合并，没有空数据
+		         outer合并所有，有可能对不起，索引会有空数据
+		join_axes：指明合并时采用哪个DataFrame列索引
+		ignore_index：忽略索引，重新指定0,1,2……
+		keys:['期中','期末']
+
+
+7、pandas中DataFrame.append(),向后面追加
+
+8、merge，融合，根据共同属性值进行融合
+
+9、美国人口分析：
+	数据集成，合并
+	进行空值填充，怎样方式填充
+	query查询 ！！！
+	运算，平均值
+	merge合并
+	排序 ！！！
+
+10、pandas文件读写操作：
+	read_csv : sep 参数，取决去文本文件分隔符
+	数据库：	
+		sqlit最简单数据库文件形式保存数据data.sqlite
+	mysql！！！
+		读取mysql 规则一样的，sql，con（ip，port，用户名，密码）
+		写：不能使用df.to_sql()这个方法
+
+		写数据：sqlalchemy，进入官网https://docs.sqlalchemy.org/en/latest/core/engines.html
+
+
+11、对重复数据的处理：
+	删除重复数据
+	根据业务需求
+
+
+12、映射：
+	字典映射关系：{key：value}
+		
+	replace：替换元素，字典{key:value,key2:value2}
+
+	map:批量替换一行
+
+13、异常值检测和过滤：
+	年龄：199异常值
+	身高：226cm异常值，对统计规律没有意义
+	工资收入：salary 负数，就是异常值
+	处理数据时候，
+		不同情况，定义异常值标准会有不同
+	很灵活
+
+	如果数据是正太分布：
+		将过大或者过小的数据删除
+		标准3σ标准，σ：std标准差
+		x - x_mean > 3σ该值异常值
+	根据实际情况进行过滤
+
+
+14、随机抽样：
+	局部代替整体，进行分析
+	
+	分层抽样
+	统计学里面的知识点
+	尽量合理
+	数据好，分析结果才会好
+
+	数据不好-------->误导我们
+
+15、数据分组聚合操作
+
+
+
+
+
+
+
+
+
+
+
+
+
+

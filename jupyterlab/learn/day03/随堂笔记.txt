@@ -1,0 +1,93 @@
+1、numpy 广播机制：
+	非常强悍，省略for循环
+	对齐
+
+2、归一化，正则化，将我们数据映射到0 ~ 1之间
+	0 ~ 1 之间这个新数组可以完全代表原来的比较大的数据
+	去量纲，单位
+
+
+3、wav无损音乐，2维数组ndarray ：左声道、右声道（立体声）
+
+	44100声音的采样频率，一秒录制44100个声音数据
+
+4、scipy高等科学计算工具包
+	
+
+5、pandas:
+	使用Python成为数据分析强大语言的原因
+	最重要的就是DataFrame（数据表格，excel，二维：行，列），Series（一维）
+
+
+6、Series创建和运算
+	方式一，传递列表，数组
+	方式二，字典形式数据，key（行索引），value（数值）
+	series索引和切片与numpy类似：
+		[规则和原来一样]
+		iloc[默认索引0,1,2……]/loc[规则和原来一样]
+		切片规则和原来一样
+	isnull,notnull
+	Series是对numpy的升级，numpy中有的，Series都有
+	Series对象之间的运算，索引要对应
+
+7、DataFrame:
+	!!! 非常重要 二维
+	行 一个样本
+	列 属性
+	创建都不难
+
+	DataFrame取出某一列，该列就是Series
+	DataFrame就是多个Series组成，共用一个index
+	列索引：
+		属性方式df.Python
+		直接通过df['Python']
+	行索引：
+		loc[]
+		iloc[]
+	元素索引：
+		先行再列df.loc[][]
+		先列后行df[][]
+		df.loc['index','columns']
+
+	切片：
+		直接使用[]不能对列进行切片，对行进行切片
+
+		列切片：df2.iloc[:,1:3]
+
+9、DataFrame常用方法：
+	min，max，std……
+	corr
+	var
+	cov
+
+
+8、axis：
+	numpy中只要掌握，axis计算方向
+	pandas计算时，也需要注意axis概念
+	pandas只有两个轴：index、columns
+		axis = 0 ----------> index ---->行
+		axis = 1 ----------> columns-->列	
+
+
+10、数据预处理
+	数据清洗：空数据NaN
+	数据挖掘
+
+	空数据处理方式：
+		定位空数据
+		空数据不多，可以直接删除
+
+		填充：
+			无论什么样填充方式，‘假数据’，尽量让数据合理
+			中位数，平局值，众数（次数最多的）
+			前置填充，后置填充
+			局部平均值
+			算法填充
+			拉格朗日中值，算法，scipy中导包就可以直接使用
+			尽量让数据合理
+		
+
+
+
+
+
