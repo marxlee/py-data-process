@@ -1,0 +1,37 @@
+1、数据分析，探索性工作
+
+2、知识点回顾
+
+3、数据分组聚合时：
+	grouped，使用方法
+		grouped.sum(),grouped.size(),grouded.mean
+		grouped.agg(func)
+		grouped.apply()
+		grouped.transform()
+
+4、时间类型的转换：
+	pd.to_datetime()
+	重采样：根据时间进行划分 划分成天D，划分成月M，划分成年Y:resample()
+	时间线索，方便对pandas进行数据操作
+
+5、pandas画图，集成了matplotlib
+	matplotlib绘图工具，可视化
+
+6、美国人口数据分析：
+	cut面元化分析，根据数据分组0~1，1~10,10~100,100~1000……
+	pivot_table透视表其实就是分组聚合
+	重采样：行索引，必须是时间序列
+	改变数据频率 统计每一天----->每月、每年
+
+7、basemap绘制地图：
+	参考官网文档
+
+
+
+
+
+
+
+
+
+
