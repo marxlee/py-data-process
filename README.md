@@ -2,8 +2,9 @@
 
 ## Jupyterlab
 ```
-# 进入juputerlab
-juputerlab --port 8889
+# cd ./juputerlab
+# 启动juputerlab
+juputer-lab --port 8889
 
 ```   
 
