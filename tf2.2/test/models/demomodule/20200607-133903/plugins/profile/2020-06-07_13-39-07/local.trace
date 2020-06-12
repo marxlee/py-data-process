@@ -1,0 +1,25 @@
+
+V1R
+	/host:CPU1ìÕ
+ZMQbg/1ìÕæŞ
+
+tf_ComputeæŞçŞ
+
+tf_ComputeçŞ",1ìÕTFE_Py_FastPathExecute_CH€¢“âş}PÀÂîJ"-1ìÕEagerExecute: VarHandleOpHÀÈåóş}P€Ï÷"21ìÕEagerLocalExecute: VarHandleOpH€Í¢ôş}P€Æı"01ìÕValidateInputTypeAndPlacementH€Öœõş}PÀ„="&1ìÕEagerKernelExecuteHÀÆ’ÿ}PÀÌ"+1ìÕVarHandleOp:VarHandleOpHÀØ†ƒÿ}PÀ¨¥",1ìÕTFE_Py_FastPathExecute_CH€§±ÿ}PÀ‰‘"41ìÕ EagerExecute: VarIsInitializedOpH€±µÿ}PÀÃ“"91ìÕ%EagerLocalExecute: VarIsInitializedOpHÀµÌµÿ}PÀº™"&1ìÕEagerKernelExecuteHÀ¾Æ¶ÿ}PÀ±Ÿ",1ìÕValidateInputTypeAndPlacementHÀ¾Æ¶ÿ}"91ìÕ%VarIsInitializedOp:VarIsInitializedOpHÀÇÀ·ÿ}P€¤è",1ìÕTFE_Py_FastPathExecute_CHÀ±¦Ğÿ}P€öàB",1ìÕEagerExecute: LogicalNotH€È×Òÿ}P€¤è"11ìÕEagerLocalExecute: LogicalNotHÀÌ”Óÿ}PÀŸ«"01ìÕValidateInputTypeAndPlacementHÀÌ”Óÿ}PÀ„="&1ìÕEagerKernelExecuteH€ÑÑÓÿ}P€›î")1ìÕLogicalNot:LogicalNotHÀÕÔÿ}P€’ô",1ìÕTFE_Py_FastPathExecute_CH€Ğ¬—€~P€™›"(1ìÕEagerExecute: AssertHÀœºŸ€~P€¤è"-1ìÕEagerLocalExecute: AssertH€¡÷Ÿ€~PÀŸ«",1ìÕValidateInputTypeAndPlacementH€ªñ €~"&1ìÕEagerKernelExecuteHÀ®®¡€~P€’ô" 1ìÕAssert:AssertHÀ·¨¢€~PÀ„="*1ìÕTFE_DeleteTensorHandleHÀöş¨€~PÀ·")1ìÕTFE_DeleteTensorHandleHÀ‹ôÓ€~P€‰z",1ìÕTFE_Py_FastPathExecute_CHÀÜ¾Ü€~P€Œû)"21ìÕEagerExecute: AssignVariableOpH€Şá€~PÀÃ“"71ìÕ#EagerLocalExecute: AssignVariableOpHÀ’›â€~P€¿Ö",1ìÕValidateInputTypeAndPlacementHÀ›•ã€~"&1ìÕEagerKernelExecuteH€ Òã€~PÀ±Ÿ"51ìÕ!AssignVariableOp:AssignVariableOpHÀ¤ä€~PÀ¨¥")1ìÕTFE_DeleteTensorHandleH€åª¼~PÀ„=",1ìÕTFE_Py_FastPathExecute_CH€Œ¦İƒ~P€õ²"31ìÕEagerExecute: DestroyResourceOpHÀÏ¹äƒ~P€­â"81ìÕ$EagerLocalExecute: DestroyResourceOpH€Ôöäƒ~P€¤è"01ìÕValidateInputTypeAndPlacementHÀØ³åƒ~PÀ„="&1ìÕEagerKernelExecuteHÀá­æƒ~PÀ–±"71ìÕ#DestroyResourceOp:DestroyResourceOpH€æêæƒ~PÀ·"*1ìÕTFE_DeleteTensorHandleHÀ»òïƒ~PÀ·"<1ìÕ'EagerExecute: __inference_add_print_349HÀìˆ¨ ~P€Ş’"A1ìÕ,EagerLocalExecute: __inference_add_print_349H€ñÅ¨ ~PÀ‹¡’"31ìÕEagerCopyToDeviceAndAddCacheKeyH€ú¿© ~P€¤è"G1ìÕ8TensorHandle::GetResourceHandleDtypesAndShapes WaitReadyHÀñ« ~"01ìÕValidateInputTypeAndPlacementHÀÓ†³°~PÀ„="'1ìÕEagerKernelExecuteHÀÜ€´°~PÀ›©†"~1ìÕFunctionRunH€ê·µ°~P€ÀŸ«Z
+group_id0Z!
+name__inference_add_print_349Z
+	step_name0Z
+id-4271943914569282525")1ìÕTFE_DeleteTensorHandleH€¯´ö´~PÀ„="*1ìÕTFE_DeleteTensorHandleHÀ¼ë÷´~PÀ·")1ìÕTFE_DeleteTensorHandleHÀøä½¸~PÀ„=",1ìÕTFE_Py_FastPathExecute_CH€¨±Ğ¸~PÀÛ‰["%1ìÕTFE_DeleteTensorHandleH€‚öÙ¸~"%1ìÕTFE_DeleteTensorHandleH€‹ğÚ¸~",1ìÕEagerExecute: LogicalAndHÀ¡¡İ¸~P€²¶ "11ìÕEagerLocalExecute: LogicalAndH€¦Şİ¸~P€©¼",1ìÕValidateInputTypeAndPlacementH€ìÛò¸~"&1ìÕEagerKernelExecuteHÀğ˜ó¸~PÀŞ
+")1ìÕLogicalAnd:LogicalAndH€şÏô¸~PÀÃ“",1ìÕTFE_Py_FastPathExecute_CHÀâÜÊº~P€…Ô"*1ìÕEagerExecute: IdentityHÀìÜº~PÀÌ"/1ìÕEagerLocalExecute: IdentityHÀ–æİº~P€¿Ö"01ìÕValidateInputTypeAndPlacementH€­—àº~PÀ„="&1ìÕEagerKernelExecuteHÀºÎáº~P€›î"$1ìÕIdentity:IdentityHÀÃÈâº~P€‰z",1ìÕTFE_Py_FastPathExecute_CHÀìº~PÀ±Ÿ")1ìÕTFE_DeleteTensorHandleH€¥Ë•»~PÀ„="%1ìÕTFE_DeleteTensorHandleHÀƒÍŸ»~")1ìÕTFE_DeleteTensorHandleHÀÿ¦º»~PÀ„=".1ìÕEagerExecute: WriteSummaryH€ç¢Å»~PÀØˆ2"31ìÕEagerLocalExecute: WriteSummaryH€ğœÆ»~PÀÏ1"01ìÕValidateInputTypeAndPlacementHÀğ³á»~PÀ„="&1ìÕEagerKernelExecuteH€õğá»~PÀÊº"-1ìÕWriteSummary:WriteSummaryHÀ‚¨ã»~PÀ¸Æ")1ìÕTFE_DeleteTensorHandleH€ÖÜù»~PÀ„=")1ìÕTFE_DeleteTensorHandleH€ßÖú»~PÀ„="%1ìÕTFE_DeleteTensorHandleHÀã“û»~")1ìÕTFE_DeleteTensorHandleHÀ½Ø„¼~PÀ„="%1ìÕTFE_DeleteTensorHandleH€İƒˆ¼~")1ìÕTFE_DeleteTensorHandleHÀáÀˆ¼~PÀ„="*1ìÕTFE_DeleteTensorHandleHÀ©‘¼~PÀ·")1ìÕTFE_DeleteTensorHandleH€·È‘¼~PÀ„="e1çŞExecutorState::ProcessHÀ‘¸ı°~P€Õ‹ÜZ
+id-4271943914569282525Z
+iter_num0Z
+group_id0"V1çŞ3self_module/AssignAddVariableOp:AssignAddVariableOpH€±ã€±~PÀ¨¥Z
+group_id0"X1çŞ6self_module/StringFormat/ReadVariableOp:ReadVariableOpHÀåŠ±~PÀ„=Z
+group_id0"H1çŞ%self_module/StringFormat:StringFormatH€”¢‹±~P€›îZ
+group_id0"?1çŞself_module/PrintV2:PrintV2HÀ³Í±~PÀïâÃZ
+group_id0"D1çŞExecutorDoneCallbackHÀï½Ú³~P€­âZ
+id-4271943914569282525"d1æŞExecutorState::ProcessHÀò£•±~PÀÓ´Z
+iter_num0Z
+group_id0Z
+id-4271943914569282525"@1æŞReadVariableOp:ReadVariableOpHÀû–±~P€’ôZ
+group_id0

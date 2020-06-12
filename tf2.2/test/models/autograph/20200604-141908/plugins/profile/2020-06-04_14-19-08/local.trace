@@ -1,0 +1,26 @@
+
+>1:
+	/host:CPU1ÕÍ6
+
+tf_ComputeÕÍ6Ú³6
+ZMQbg/1Ú³6"81Ú³6$EagerExecute: __inference_strjoin_30H€€™›PÀ„ß•"=1Ú³6)EagerLocalExecute: __inference_strjoin_30HÀ„Ö›P€€¢•"-1Ú³6EagerCopyToDeviceAndAddCacheKeyH€‰“œ"+1Ú³6ValidateInputTypeAndPlacementH€¼Ú±"&1Ú³6EagerKernelExecuteHÀÀ—²P€»æı"z1Ú³6FunctionRunHÀÒ‹´PÀƒÅ¦Z
+group_id0Z
+name__inference_strjoin_30Z
+	step_name0Z
+id-2816820898633878067"Q1Ú³6ExecutorState::ProcessHÀ‰ŸêP€õ²Z
+id-1Z
+iter_num0Z
+group_id0"71Ú³6StringJoin:StringJoinH€ ĞìPÀŸ«Z
+group_id0"Q1Ú³6ExecutorState::ProcessH€Ä¸ğPÀŸ«Z
+id-1Z
+iter_num0Z
+group_id0"91Ú³6_send_StringJoin_0:_SendH€Ö¬òP€‰zZ
+group_id0"31Ú³6_send_Identity_0:_SendHÀìİôZ
+group_id0";1Ú³6ExecutorDoneCallbackHÀşÑöZ
+id-1Z
+group_id0")1Ú³6TFE_DeleteTensorHandleHÀİ—ş!PÀ–±")1Ú³6TFE_DeleteTensorHandleHÀÆ…½'PÀ–±",1Ú³6TFE_Py_FastPathExecute_CH€‰ô‡(PÀª“å"$1Ú³6TFE_DeleteTensorHandleHÀñÉ("$1Ú³6TFE_DeleteTensorHandleHÀ•†Í("+1Ú³6EagerExecute: LogicalAndH€†üØ(P€©`"01Ú³6EagerLocalExecute: LogicalAndHÀœ­Û(P€òº]"01Ú³6ValidateInputTypeAndPlacementH€Æ€–)PÀ·"%1Ú³6EagerKernelExecuteH€áî˜)PÀ­ù"(1Ú³6LogicalAnd:LogicalAndHÀ‰”)P€êå"+1Ú³6TFE_Py_FastPathExecute_CH€ÁÙÜ-P€ªêU")1Ú³6EagerExecute: IdentityH€¹’.PÀ›…".1Ú³6EagerLocalExecute: IdentityH€Ë”.PÀ‰‘"+1Ú³6ValidateInputTypeAndPlacementHÀ°ª¬."%1Ú³6EagerKernelExecuteHÀ¹¤­.P€›î"#1Ú³6Identity:IdentityHÀÂ®.P€‰z"+1Ú³6TFE_Py_FastPathExecute_CHÀÀË».P€ÈĞ"(1Ú³6TFE_DeleteTensorHandleHÀ…¤”/PÀ„="$1Ú³6TFE_DeleteTensorHandleH€íŸŸ/"(1Ú³6TFE_DeleteTensorHandleH€Î‹·/PÀ„="-1Ú³6EagerExecute: WriteSummaryH€Ã¾Ã/P€Á²s"21Ú³6EagerLocalExecute: WriteSummaryHÀÇûÃ/PÀ¼õr"+1Ú³6ValidateInputTypeAndPlacementHÀ„ÿ×/"%1Ú³6EagerKernelExecuteH€‰¼Ø/PÀö÷]",1Ú³6WriteSummary:WriteSummaryH€›°Ú/PÀÉ•Y")1Ú³6TFE_DeleteTensorHandleHÀâòÀ0P€’ô"(1Ú³6TFE_DeleteTensorHandleH€‚Ä0P€‰z"(1Ú³6TFE_DeleteTensorHandleHÀÕÅ0PÀ„="(1Ú³6TFE_DeleteTensorHandleHÀìšø0PÀ„="(1Ú³6TFE_DeleteTensorHandleHÀáÍ„1P€‰z")1Ú³6TFE_DeleteTensorHandleHÀü»‡1PÀ·")1Ú³6TFE_DeleteTensorHandleH€ôØ¡1P€’ô"(1Ú³6TFE_DeleteTensorHandleHÀŠŠ¤1PÀ„="d1ÕÍ6ExecutorState::ProcessHÀ‰¨äPÀòãìZ
+id-2816820898633878067Z
+iter_num0Z
+group_id0"21ÕÍ6PrintV2:PrintV2HÀ’¢åP€ùóßZ
+group_id0"C1ÕÍ6ExecutorDoneCallbackHÀ‰ÃÒ P€¿ÖZ
+id-2816820898633878067
